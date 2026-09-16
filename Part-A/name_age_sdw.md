@@ -56,7 +56,7 @@
 >
 > Enter your response below.
 
-TODO: Replace this text with your one-sentence summary of the program's purpose
+The purpose of this program is to ask the user their name and how old they are, after which the program will calculate their age.
 
 ### 3. Inputs, Processing, and Outputs
 
@@ -74,7 +74,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each input.
 
-1. TODO: Replace with your first input and its source (e.g., user input, system value, internal value).
+1. User Name
+2. User age
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, especially requirement **1.3**
 >
@@ -82,7 +83,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each input.
 
-1. TODO: Replace with your first input and its data type (e.g., string, integer, float, Not specified).
+1. Not Specified
+2. Integer
 
 #### IPO: Processing
 
@@ -94,7 +96,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter a brief description in your own words below. Use a separate numbered bullet for each process.
 
-1. TODO: Replace with your first processing step in your own words.
+1. The user puts in an integer (whole number)
+2. The program then takes the integer and subtracting it from the current year
 
 #### IPO: Outputs
 
@@ -106,7 +109,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output.
 
-1. TODO: Replace with your first output and where it is displayed (e.g., console, file, GUI).
+1. the programs out puts the users birth year with a personalized message.
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, requirement **1.5**, and `## Sample Input and Output`
 >
@@ -114,7 +117,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output format.
 
-1. TODO: Replace with your first output format.
+1. Yes, the out put need to follow a format. It needs to say Hello (name)! You were born in (year).
 
 ### 4. Requirements in My Own Words
 
@@ -130,7 +133,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below in your own words.
 
-Replace this text with your explanation of requirement 1.2 in your own words.
+It means that the user will input a number. That number could be their birth year or it could be a random number to see if the program will fail or not.
 
 #### SRS Requirement 1.3 — Use the Age in an Arithmetic Calculation
 
@@ -140,7 +143,7 @@ Replace this text with your explanation of requirement 1.2 in your own words.
 >
 > Enter your response below in your own words.
 
-TODO: Replace this text with your explanation of requirement 1.3 in your own words.
+The number needs to be an integer because if you put in a float number it will calculate the output wrong.
 
 #### SRS Requirement 1.4 — Calculate the Approximate Birth Year
 
@@ -150,7 +153,7 @@ TODO: Replace this text with your explanation of requirement 1.3 in your own wor
 >
 > Enter your response below.
 
-Replace this text with your explanation of requirement 1.4 in your own words.
+It is an approximate because the program will not know if you have had your birthday or not this year yet.
 
 #### SRS Requirement 1.5 — Display the Personalized Result
 
@@ -160,7 +163,7 @@ Replace this text with your explanation of requirement 1.4 in your own words.
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of requirement 1.5 in your own words.
+It means that will all the information that has been input you will get the personalized message in your output.
 
 ### 5. Constraints and Special Cases
 
@@ -174,7 +177,9 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below. Use a separate numbered bullet for each constraint.
 
-1. TODO: Replace with your first important constraint.
+1. No Errors
+2. Correctness
+3. Quality
 
 #### Special or Edge Cases
 
@@ -186,7 +191,9 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below. Use a separate numbered bullet for each edge case.
 
-1. TODO: Replace with your first edge case.
+1. Negative age edge case
+2. Zero age edge case
+3. age over 100 edge case
 
 ### 6. Analyze Checkpoint
 
@@ -243,7 +250,7 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of how the design addresses requirement 1.3.
+User Name and user age part of the design addresses the requirement
 
 #### SRS Requirement 1.4
 
@@ -257,7 +264,7 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of how the design addresses requirement 1.4.
+Calculate birth year part of the flow chart addresses the requirement
 
 ### 9. Check the Plan With an Example
 
@@ -273,9 +280,9 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your response below.
 
-* Current year: TODO: Replace with the current year from Test 1.
-* User name: TODO: Replace with the user name from Test 1.
-* User age: TODO: Replace with the user age from Test 1.
+* Current year: 2026
+* User name: Jordan
+* User age: 25
 
 #### Test Processing
 
@@ -289,7 +296,7 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your calculation below.
 
-User's approximate birth year = TODO: Replace with the calculation using the Test 1 values (e.g., current year - user age).
+User's approximate birth year = 2001
 
 #### Expected Output
 
